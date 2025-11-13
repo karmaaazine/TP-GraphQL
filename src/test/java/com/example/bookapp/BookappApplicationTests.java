@@ -1,10 +1,10 @@
-package com.example.srinboot;
+package com.example.bookapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SrinbootApplicationTests {
+	class SrinbootApplicationTests {
 
 	@Test
 	void contextLoads() {
