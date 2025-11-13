@@ -21,6 +21,7 @@ type Query {
     getBooksByCategory(category: Category!): [Book!]!
     searchBooks(title: String!): [Book!]!
 }
+
 type Mutation {
     createBook(
         title: String!
@@ -29,6 +30,7 @@ type Mutation {
         isbn: String!
         category: Category!
     ): Book!
+
     updateBook(
         id: ID!
         title: String
@@ -37,5 +39,6 @@ type Mutation {
         isbn: String
         category: Category
     ): Book
+
     deleteBook(id: ID!): Boolean!
 }
